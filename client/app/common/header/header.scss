@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 60px;
+  background-color: aquamarine;
+  color: grey;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 0px 15px;
+
+  & span.imgContainer {
+    display: flex;
+  }
+
+  & span.imgContainer img:nth-child(2n+1) {
+    margin-right: 10px;
+  }
+
+  & img{
+    cursor: pointer;
+    width: 20px;
+    height: 20px
+  }
+}

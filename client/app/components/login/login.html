@@ -1,0 +1,16 @@
+<div class="login">
+  <form novalidate>
+    <h3>LogIn</h3>
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" class="form-control" ng-model="$ctrl.username" id="username" placeholder="Username" required>
+    </div>
+    <div class="form-group">
+      <label for="password1">Password</label>
+      <input type="password" ng-model="$ctrl.password" class="form-control" id="password1" placeholder="Password" required>
+    </div>
+    <div class="form-group">
+      <button type="button" class="btn btn-danger" ng-click="$ctrl.submitForm()">Submit</button>
+    </div>
+  </form>
+</div>
